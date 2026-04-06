@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${adobesign-list-participants.impl.id}</implementationId>
+  <implementationVersion>${adobesign-list-participants.impl.version}</implementationVersion>
+  <definitionId>${adobesign-list-participants.def.id}</definitionId>
+  <definitionVersion>${adobesign-list-participants.def.version}</definitionVersion>
+  <implementationClassname>${adobesign-list-participants.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Adobe Sign ListParticipants connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

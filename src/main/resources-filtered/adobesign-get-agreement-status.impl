@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${adobesign-get-agreement-status.impl.id}</implementationId>
+  <implementationVersion>${adobesign-get-agreement-status.impl.version}</implementationVersion>
+  <definitionId>${adobesign-get-agreement-status.def.id}</definitionId>
+  <definitionVersion>${adobesign-get-agreement-status.def.version}</definitionVersion>
+  <implementationClassname>${adobesign-get-agreement-status.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Adobe Sign GetAgreementStatus connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

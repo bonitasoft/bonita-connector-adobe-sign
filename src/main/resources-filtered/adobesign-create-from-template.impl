@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${adobesign-create-from-template.impl.id}</implementationId>
+  <implementationVersion>${adobesign-create-from-template.impl.version}</implementationVersion>
+  <definitionId>${adobesign-create-from-template.def.id}</definitionId>
+  <definitionVersion>${adobesign-create-from-template.def.version}</definitionVersion>
+  <implementationClassname>${adobesign-create-from-template.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Adobe Sign CreateFromTemplate connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${adobesign-cancel-agreement.impl.id}</implementationId>
+  <implementationVersion>${adobesign-cancel-agreement.impl.version}</implementationVersion>
+  <definitionId>${adobesign-cancel-agreement.def.id}</definitionId>
+  <definitionVersion>${adobesign-cancel-agreement.def.version}</definitionVersion>
+  <implementationClassname>${adobesign-cancel-agreement.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Adobe Sign CancelAgreement connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

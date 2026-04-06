@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${adobesign-download-document.impl.id}</implementationId>
+  <implementationVersion>${adobesign-download-document.impl.version}</implementationVersion>
+  <definitionId>${adobesign-download-document.def.id}</definitionId>
+  <definitionVersion>${adobesign-download-document.def.version}</definitionVersion>
+  <implementationClassname>${adobesign-download-document.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>Adobe Sign DownloadDocument connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>
